@@ -1,10 +1,9 @@
 package com.defitech.pharmacie.caisse.service;
 
-import com.defitech.pharmacie.caisse.entity.Facture;
-import com.defitech.pharmacie.caisse.entity.ProduitDetail;
+import com.defitech.pharmacie.core.entity.Facture;
+import com.defitech.pharmacie.core.entity.ProduitDetail;
 import com.defitech.pharmacie.caisse.repository.FactureRepository;
 import com.defitech.pharmacie.caisse.repository.ProduitDetailRepository;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class FactureService implements IFactureService{
+public class FactureService implements IFactureService {
     @Autowired
     FactureRepository factureRepository;
     @Autowired

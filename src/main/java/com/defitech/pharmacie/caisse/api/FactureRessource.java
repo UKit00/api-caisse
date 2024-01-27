@@ -1,6 +1,6 @@
 package com.defitech.pharmacie.caisse.api;
 
-import com.defitech.pharmacie.caisse.entity.Facture;
+import com.defitech.pharmacie.core.entity.Facture;
 import com.defitech.pharmacie.caisse.service.FactureService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

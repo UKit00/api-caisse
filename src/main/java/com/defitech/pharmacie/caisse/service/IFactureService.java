@@ -1,6 +1,6 @@
 package com.defitech.pharmacie.caisse.service;
 
-import com.defitech.pharmacie.caisse.entity.Facture;
+import com.defitech.pharmacie.core.entity.Facture;
 
 import java.util.List;
 
