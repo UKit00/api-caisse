@@ -8,8 +8,6 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EntityScan("com.defitech.pharmacie.core.entity")
 public class GestionDesVentesApplication {
-	//Code recommiter
-
 	public static void main(String[] args) {
 		SpringApplication.run(GestionDesVentesApplication.class, args);
 	}
